@@ -1,9 +1,12 @@
-import React from 'react';
-//import Square from './Square.css';
+import React, {useState} from 'react';
+import './Square.css';
 
-const Square = () =>{
-  return <div className='square-stye'>
-    <h1>hola</h1>
+const Square = (props) =>{
+
+  return <div className='square-style'>
+    <button className='square-style' onClick={props.onClickEvent} >
+      {props.value}
+      </button>
   </div>
 };
 
