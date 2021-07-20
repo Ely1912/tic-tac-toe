@@ -1,12 +1,18 @@
 .board-style {
-  background-color: rgb(248, 241, 241);
+  background-color: white;
   display : flex;
   flex-direction: column;
   justify-content: center;
   align-self: center;
-  height: 70vh;
-  width: 70vw;
+  height: 80vh;
+  width: 80vw;
   align-items: center;
+}
+
+.title{
+  font-size: 4em;
+  margin : 30px;
+  margin-top: 10px;
 }
 
 .row{

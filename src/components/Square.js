@@ -1,11 +1,11 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './Square.css';
 
 const Square = (props) =>{
 
   return <div className='square-style'>
-    <button className='square-style' onClick={props.onClickEvent} >
-      {props.value}
+    <button className='square-button-style' onClick={props.onClickEvent} >
+      <div className='square-letter'>{props.value}</div>
       </button>
   </div>
 };
