@@ -1,0 +1,6 @@
+.text-button{
+  font-size: 2em;
+  border: 1px solid #FA43CF;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px black;
+}
